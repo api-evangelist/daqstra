@@ -1,7 +1,29 @@
 aid: daqstra
 name: Daqstra
-description: Daqstra is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Daqstra is an AI-native operating platform for complex test infrastructure,
+  giving aerospace, energy, and robotics teams observability and orchestration
+  for the physical world. The platform connects data-acquisition hardware
+  (National Instruments, PLCs, and custom equipment) at the edge, centralizes
+  and versions test data in the cloud, and orchestrates hardware sequences and
+  test logic as code through Python and REST APIs. Daqstra Edge streams live
+  signals from physical hardware, Daqstra Hub (Strata Hub) organizes
+  test-campaign data with AI-powered insight, and the Daqstra API lets engineers
+  drive test runs programmatically instead of through manual CSV workflows. The
+  company was founded by aerospace-propulsion and avionics engineers and is
+  backed by Y Combinator (S26 batch).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://daqstra.com/assets/images/case-studies/seds-rocketengine-staticfire-ipa-lox.png
 url: https://raw.githubusercontent.com/api-evangelist/daqstra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Test Infrastructure
+- Data Acquisition
+- Aerospace
+- Hardware
+- Observability
+- Orchestration
+- Telemetry
+- Test Automation
+- Artificial Intelligence
 apis: []
+common:
+- url: https://www.daqstra.com/
+  type: Website
+- url: https://www.daqstra.com/platform
+  type: Platform
+- url: https://www.daqstra.com/company/about
+  type: About
+- url: https://www.daqstra.com/case-studies
+  type: CaseStudies
+- url: https://www.daqstra.com/press
+  type: Press
+- url: https://www.daqstra.com/company/contact
+  type: Support
+- url: https://daqstra.medium.com/
+  type: Blog
+- url: https://www.linkedin.com/company/daqstra/
+  type: LinkedIn
+- url: https://twitter.com/daqstra
+  type: Twitter
+- url: security/daqstra-domain-security.yml
+  type: DomainSecurity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
