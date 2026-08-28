@@ -12,6 +12,17 @@ description: >-
   drive test runs programmatically instead of through manual CSV workflows. The
   company was founded by aerospace-propulsion and avionics engineers and is
   backed by Y Combinator (S26 batch).
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
